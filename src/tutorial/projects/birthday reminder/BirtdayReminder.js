@@ -17,9 +17,9 @@ function BirtdayReminder() {
         {/* <People /> */}
           
             {rData?.length === 0 ? (
-              <h3>0 Birthdays</h3>
+              <h3>0 Birthdays Today</h3>
             ):(
-              <h3>{3} Birthdays</h3>
+              <h3>{3} Birthdays Today</h3>
             )}
 
             {
