@@ -11,7 +11,7 @@ export const data = [
 
      {id: 3,
      image: 'https://images.squarespace-cdn.com/content/55db717de4b08af9f620487c/1498258329409-7NNOJIKEQU4XV3BBIR9B/?content-type=image%2Fjpeg',
-     name: 'mendelRubinson',
+     name: 'mendel rubinson',
      age: 17},
 
 ]
