@@ -26,10 +26,12 @@ function BirtdayReminder() {
           rData.map((person) => {
               const {id, image, name, age} = person;
               return (
-                  <div key={id} >
+                  <div className='main_div' key={id} >
                       <img src={image} alt='face_image' />
-                      <h4>{name}</h4>
-                      <h4>{age}</h4>
+                      <div className='h4'>
+                        <h4>{name}</h4>
+                        <h4 className='age'>{age}</h4>
+                      </div>
                   </div>
                     )
                 })
